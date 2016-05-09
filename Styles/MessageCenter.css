@@ -1,0 +1,48 @@
+﻿@import "PageHeader.css";
+
+.repeaterDataBlock 
+{
+    width: 750px;
+    margin: auto;
+}
+.repeaterDataBlock a
+{
+    display: inline-block;
+    margin-top: 20px;
+    width: 180px;
+}
+.repeaterRowBlock label
+{
+    width: 210px;
+}
+.repeaterRowBlock
+{
+    margin: auto;
+    width: 725px;
+    border: 1px solid #404041;
+    padding-top: 10px;
+}
+.repeaterRowBlock label, .repeaterHeader label
+{
+    margin-left: 15px;
+    display: inline-block;
+    width: 210px;
+    overflow: hidden;
+}
+.repeaterRowBlock label.lineNo, .repeaterHeader label.lineNo
+{
+    width: 20px;
+}
+.repeaterRowBlock span
+{
+    width: 20px;
+    display: inline-block;
+    
+}
+.repeaterHeader
+{
+    margin: auto;
+    width: 725px;
+    padding-top: 10px;
+    font-weight: bold;
+}

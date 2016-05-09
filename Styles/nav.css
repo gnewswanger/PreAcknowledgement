@@ -1,0 +1,118 @@
+﻿nav  
+{
+    display:block; 
+    margin:0 auto 20px; 
+    border:1px solid #222; 
+    position:relative; 
+    background-color: #6d1521; 
+    font:14px Tahoma, Sans-serif; 
+}
+nav ul 
+{ 
+    padding:0; 
+    margin:0; 
+}
+nav li
+{
+    position:relative; 
+    float:left; 
+    list-style-type:none; 
+    color: #fff;
+}
+nav ul:after 
+{ 
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden; 
+}
+nav li a 
+{ 
+    display:block; 
+    padding:10px 20px; 
+    border-left:1px solid #999; 
+    border-right:1px solid #222; 
+    color:#fff; 
+    text-decoration:none; 
+}
+nav li a:link, a:visited
+{
+    color: #fff;
+}
+nav li:first-child a 
+{ 
+    border-left:none; 
+}
+nav li.last a 
+{ 
+    border-right:none; 
+}
+nav a span 
+{ 
+    display:block; 
+    float:right; 
+    margin-left:5px; 
+}
+nav ul ul 
+{ 
+    display:none; 
+    width:100%; 
+    position:absolute; 
+    left:0; 
+    background: transparent; 
+}
+nav ul ul li 
+{ 
+    float:none; 
+}
+nav ul ul a 
+{ 
+    padding:5px 10px; 
+    border-left:none; 
+    border-right:none; 
+    font-size:14px; 
+}
+nav > ul > li:hover 
+{
+    background-color: #6d6e70;
+}
+nav > ul > li:hover > a 
+{
+    color: rgb( 255, 255, 255 );
+}
+nav > ul > li:hover > div 
+{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+nav > ul > li > div ul > li 
+{
+    display: block;
+}
+nav > ul > li > div ul > li > a 
+{
+    color: #fff;
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+nav > ul > li > div ul > li:hover > a 
+{        
+    background-color: rgba( 255, 255, 255, 0.1);
+}
+
+/*
+a.navLinks
+{
+    display: block;
+    color: #fff;
+    background-color: transparent;
+    font: Verdana Bold 12px;
+}
+a.navLinks:visited
+{
+    color: #fff;
+}
+*/

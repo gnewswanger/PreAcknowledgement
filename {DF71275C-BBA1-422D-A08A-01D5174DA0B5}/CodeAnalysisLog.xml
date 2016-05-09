@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="C:\Users\gnewswanger\AppData\Local\Temp\tmp9AE1.tmp.cadir\bin\App_Code.dll">
+   <Modules>
+    <Module Name="app_code.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="DataSetDealerContact" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetDealerContact'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetDealerContact+upGetADGroupsWithImpersonationsDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetDealerContact.upGetADGroupsWithImpersonationsDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetDealerContact+upGetContactsUsers_ContactUserIDDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetDealerContact.upGetContactsUsers_ContactUserIDDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetSalesOrder" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetSalesOrder'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetSalesOrder+upGetItemModels_SectionItemIDDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetSalesOrder.upGetItemModels_SectionItemIDDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetSalesOrder+upGetJobNumber_SectionIdDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetSalesOrder.upGetJobNumber_SectionIdDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetSalesOrder+upGetQuoteByQuoteIdDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetSalesOrder.upGetQuoteByQuoteIdDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetSalesOrder+upGetQuoteDetail_QuoteDetailIDDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetSalesOrder.upGetQuoteDetail_QuoteDetailIDDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetSalesOrder+upGetSectionItems_SectionID2DataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetSalesOrder.upGetSectionItems_SectionID2DataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetSalesOrder+upGetSectionItems_SectionItemIDDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetSalesOrder.upGetSectionItems_SectionItemIDDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetSalesOrder+upGetSectionTimeLineBySectionIDDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetSalesOrder.upGetSectionTimeLineBySectionIDDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetSalesOrder+upGetSectionWithDetails_SectionID2DataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetSalesOrder.upGetSectionWithDetails_SectionID2DataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetSalesOrder+upGetTimeLineBenchmarkDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetSalesOrder.upGetTimeLineBenchmarkDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetTsMessages" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetTsMessages'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetTsMessages+upGetAttachmentsByMsgIdDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetTsMessages.upGetAttachmentsByMsgIdDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetTsMessages+upGetDialogTypesListDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetTsMessages.upGetDialogTypesListDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetTsMessages+upGetTsMessageBySectionIDDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetTsMessages.upGetTsMessageBySectionIDDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetTsMessages+upGetTsMessageBySectionItemsIdDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetTsMessages.upGetTsMessageBySectionItemsIdDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetTsMessages+upGetTsMessageResponseByMsgIdDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetTsMessages.upGetTsMessageResponseByMsgIdDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetTsMessages+upGetTsMessageStatusListDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetTsMessages.upGetTsMessageStatusListDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetTsMessages+upGetTsMsgUnresolvedByAllDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetTsMessages.upGetTsMsgUnresolvedByAllDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetTsMessages+upGetTsMsgUnresolvedByContactDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetTsMessages.upGetTsMsgUnresolvedByContactDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetVFP" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetVFP'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSetVFP+sojnotes01DataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSetVFP.sojnotes01DataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="OrderInfoClass" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-04-20 19:23:31Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'OrderInfoClass' because it creates members of the following IDisposable types: 'upGetSectionWithDetails_SectionID2TableAdapter', 'upGetItemModels_SectionItemIDTableAdapter', 'sojnotes01TableAdapter'. If 'OrderInfoClass' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>Implement ISerializable correctly</Name>
+   <Description>If a type is assignable to ISerializable, it should implement GetObjectData. For unsealed types, the GetObjectData method should be callable and overridable by derived types.</Description>
+   <Resolution Name="Default">Add an implementation of GetObjectData to type {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Types that own disposable fields should be disposable</Name>
+   <Description>Types that declare disposable members should also implement IDisposable. If the type does not own any unmanaged resources, do not implement a finalizer on it.</Description>
+   <Resolution Name="DependsOnFix">Implement IDisposable on {0} because it creates members of the following IDisposable types: {1}. If {0} has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

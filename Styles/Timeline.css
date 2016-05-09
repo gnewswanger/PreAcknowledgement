@@ -1,0 +1,149 @@
+﻿/* TIMELINE DIV Styling */
+#TimeLine 
+{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+#TLBenchMarks
+{
+    /*background-image: url("../Images/TimeLine Horizontal test.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0;*/
+    position: relative;
+    width: 960px;
+    height: 35px;
+    margin-top: 5px;
+}
+#MarkName1
+{
+    /* position: absolute;
+    bottom: 0px;
+    left: 15px;*/
+    float: left;
+    width: 65px;
+    height: 35px;
+    padding-left: 20px;
+    overflow-wrap: break-word;
+}
+#MarkName2
+{
+    /* position: absolute;
+    bottom: 0px;
+    left: 110px;*/
+    float: left;
+    /*width: 85px;*/
+    max-width: 95px;
+    height: 35px;
+    padding-left: 25px;
+    background-image: url("../Images/TlArrowThin.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    word-wrap: normal;
+    overflow-wrap: break-word;
+}
+#MarkName3
+{
+    /* position: absolute;
+    bottom: 0px;
+    left: 260px;*/
+    float: left;
+    /*width: 85px;*/
+    max-width: 95px;
+    height: 35px;
+    padding-left: 25px;
+    background-image: url("../Images/TlArrowThin.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+#MarkName4
+{
+    /* position: absolute;
+    bottom: 0px;
+    left: 410px;*/
+    float: left;
+    /*width: 85px;*/
+    max-width: 95px;
+    height: 35px;
+    padding-left: 25px;
+    background-image: url("../Images/TlArrowThin.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+#MarkName5
+{
+    /* position: absolute;
+    bottom: 0px;
+    left: 560px;*/
+    float: left;
+    /*width: 85px;*/
+    max-width: 95px;
+    height: 35px;
+    padding-left: 25px;
+    background-image: url("../Images/TlArrowThin.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+#MarkName6
+{
+    /* position: absolute;
+    bottom: 0px;
+    left: 710px;*/
+    float: left;
+    /*width: 85px;*/
+    max-width: 95px;
+    height: 35px;
+    padding-left: 25px;
+    background-image: url("../Images/TlArrowThin.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+#MarkName7
+{
+    /* position: absolute;
+    bottom: 0px;
+    left: 860px;*/
+    float: left;
+    /*width: 85px;*/
+    max-width: 95px;
+    height: 35px;
+    padding-left: 25px;
+    background-image: url("../Images/TlArrowThin.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+#MarkName8
+{
+     /* position: absolute;
+    bottom: 0px;
+    left: 1010px;*/
+    float: left;
+    /*width: 85px;*/
+    max-width: 95px;
+    height: 35px;
+    padding-left: 25px;
+    background-image: url("../Images/TlArrowThin.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+#TimeLine .markValue
+{
+    position: absolute;
+    bottom: 2px;
+    text-align: center;
+}
